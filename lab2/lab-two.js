@@ -55,13 +55,7 @@ function getDayOfTheWeek(year, month, day) {
     let monthCodes = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
    
     return monthCodes[numberForDayoftheWeek];
-
 } 
-// T E S T:
-// console.log(getDayOfTheWeek(2022,"September", 21));// Wednesday
-// console.log(getDayOfTheWeek(1996,"January",14));// Sunday
-// console.log(getDayOfTheWeek(2002,"July",30)); // Tuesday
-// console.log(getDayOfTheWeek(1967, "December", 15)); // Friday
 
 function makeCalendar(){
     const monthNames= ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -72,7 +66,5 @@ function makeCalendar(){
         }
     }
 }
-// T E S T:
-// console.log(makeCalendar());
 
-module.exports = { getDayOfTheWeek, makeCalendar};
+module.exports = { getDayOfTheWeek, makeCalendar };
