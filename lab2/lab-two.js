@@ -74,3 +74,5 @@ function makeCalendar(){
 }
 // T E S T:
 // console.log(makeCalendar());
+
+module.exports = { getDayOfTheWeek, makeCalendar};
