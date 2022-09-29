@@ -1,0 +1,2 @@
+The user input is (1,2),(3,4). 
+The distance between points is 2.8284271247461903

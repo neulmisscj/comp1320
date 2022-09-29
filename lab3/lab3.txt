@@ -1,0 +1,2 @@
+const fs = require ("fs");
+    파일 시스템 모듈을 불러옴.그래야지 fs.readFile 사용 가능.
