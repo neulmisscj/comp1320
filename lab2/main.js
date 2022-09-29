@@ -3,8 +3,8 @@ var makeCalendar = require("./lab-two").makeCalendar;
 var readline = require("readline-sync");
 
 
-var year = readline.question("Enter a Year: ");
-var month = readline.question("Enter a Month: ");
-var date = readline.question("Enter a Date: ");
-getDayOfTheWeek(year, month, date);
+var year = readline.questionInt("Enter a Year: ");
+var month = readline.question("Enter a Month:  ");
+var date = readline.questionInt("Enter a Date: ");
+console.log(getDayOfTheWeek(year, month, date));
 makeCalendar();
