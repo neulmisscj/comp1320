@@ -1,5 +1,5 @@
 const process = require("process"); // to use process.argv
-const fs = require('fs'); // for fs function 
+const fs = require('fs'); // for file making
 const distance = require("./mathHelpers").distance; // distance call that function. 
 let dirName  = "dataPoints";
 let userInput = process.argv.slice(2);  //only getting the numbers. 
@@ -26,3 +26,4 @@ function processInput(dirName,data) {
 }
 
 processInput(dirName,userInput);
+//

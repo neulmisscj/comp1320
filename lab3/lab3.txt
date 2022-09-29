@@ -1,2 +1,42 @@
 const fs = require ("fs");
     파일 시스템 모듈을 불러옴.그래야지 fs.readFile 사용 가능.
+
+
+
+
+// 
+    // let userInput = process.argv.slice(2); 
+    // let x1 = Number(userInput[0]);
+    // let y1 = Number(userInput[1]);
+    // let x2 = Number(userInput[2]);
+    // let y2 = Number(userInput[3]);
+
+    // fs.mkdir("dataPoints", (err) => {
+    //     if (err) {
+    //         console.log(`Older "dataPoints" already exists`);
+    //         fs.mkdir("temp_dataPoints", (err) => {
+    //             if (err) {
+    //                 fs.mkdir("temp_temp_dataPoints", (err) => {
+    //                     if (err) {return console.log(err)}})}})}});
+
+
+    // fs.writeFile("dataPoints/points.txt", userInput , function (err) {
+    //     if (err) {
+    //         console.log(`Error occurred`); 
+    //     } else {
+    //         console.log (`Content saved`);
+    //     }
+    // }
+    // );
+
+    // let d = distance(x1, y1, x2, y2);
+    // let output = `The distance between your two points: (${x1},${y1}) , (${x2},${y2}) is ${d}.`
+
+    // fs.appendFile("dataPoints/points.txt", output, function (err) {
+    //     if (err) {
+    //         console.log(`Error occurred`); 
+    //     } else {
+    //         console.log (`Content saved`);
+    //     }
+    // })
+    // };
